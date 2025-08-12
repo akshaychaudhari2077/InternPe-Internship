@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopzone- Home</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Shopzone</h1>
+        <nav>
+            <a href="#men">Men</a>
+            <a href="#women">Women</a>
+            <a href="#children">Children</a>
+        </nav>
+        <div class="auth">
+            <button onclick="showLogin()">Login</button>
+            <button onclick="showSignup()">Signup</button>
+            <button onclick="viewCart()">Cart (<span id="cart-count">0</span>)</button>
+        </div>
+    </header>
+
+    <section id="men" class="category">
+        <h2>Men's Wear</h2>
+        <div class="product-grid">
+            <div class="product"><img src="https://i.pinimg.com/originals/f5/1c/d9/f51cd9e5d66daf73ef1a8153afe1faf3.jpg" alt="Men Shirt">
+                <h3>Shirt</h3>
+                <p>$30</p><button onclick="addToCart()">Add to Cart</button></div>
+            <div class="product"><img src="https://images.opumo.com/wordpress/wp-content/uploads/2023/07/Layer-3-1.png" alt="Men Trousers">
+                <h3>Trousers</h3>
+                <p>$40</p><button onclick="addToCart()">Add to Cart</button></div>
+            <div class="product"><img src="https://tse3.mm.bing.net/th?id=OIP.eR12ny0Pi-Ld-im4T_Ih-AHaHa&pid=Api&P=0&h=180" alt="Men Shorts">
+                <h3>Shorts</h3>
+                <p>$25</p><button onclick="addToCart()">Add to Cart</button></div>
+            <div class="product"><img src="https://img.kwcdn.com/product/temu-avi/image-crop/b2cd6fba-06fa-453a-9f2e-abc9938f4bc0.jpg" alt="Men T-shirt">
+                <h3>T-Shirt</h3>
+                <p>$20</p><button onclick="addToCart()">Add to Cart</button></div>
+            <div class="product"><img src="https://cdnb.lystit.com/photos/2011/12/02/jcrew-faded-red-vintage-flannel-shirt-in-amherst-plaid-product-1-2470291-033795566.jpeg" alt="Men Shirt">
+                <h3>Shirt</h3>
+                <p>$30</p><button onclick="addToCart()">Add to Cart</button></div>
+        </div>
+    </section>
+
+    <section id="women" class="category">
+        <h2>Women's Wear</h2>
+        <div class="product-grid">
+            <div class="product"><img src="https://cdn.shopify.com/s/files/1/0867/1796/products/4248-05.jpg?v=1576071560" alt="Women Shirt">
+                <h3>Shirt</h3>
+                <p>$32</p><button onclick="addToCart()">Add to Cart</button></div>
+            <div class="product"><img src="https://content.woolovers.com/img/o/43010_w26l_chambray_w_22.jpg" alt="Women Trousers">
+                <h3>Trousers</h3>
+                <p>$42</p><button onclick="addToCart()">Add to Cart</button></div>
+            <div class="product"><img src="https://images-na.ssl-images-amazon.com/images/I/71wphw3za-L.UL1500.jpg" alt="dress">
+                <h3>dress</h3>
+                <p>$27</p><button onclick="addToCart()">Add to Cart</button></div>
+            <div class="product"><img src="http://www.tshirt-supplier.com/Uploads/5baf8c94aab5e.jpg" alt="Women T-shirt">
+                <h3>T-Shirt</h3>
+                <p>$22</p><button onclick="addToCart()">Add to Cart</button></div>
+            <div class="product"><img src="https://img.kwcdn.com/product/1dab9a690e/63f7126c-f6a3-47ba-9755-705a8865abd3_1340x1786.jpeg.a.jpeg" alt="dress">
+                <h3>dress</h3>
+                <p>$32</p><button onclick="addToCart()">Add to Cart</button></div>
+            <div class="product"><img src="https://cdnb.lystit.com/photos/2013/10/09/reiss-mid-grey-nell-arc-tailored-trousers-product-1-13962893-557620271.jpeg" alt="Women Trousers">
+                <h3>Trousers</h3>
+                <p>$42</p><button onclick="addToCart()">Add to Cart</button></div>
+            <div class="product"><img src="https://www.stylesgap.com/wp-content/uploads/2019/08/Latest-Party-Wear-Maxi-Dresses-Frocks-Collection-3.jpeg" alt="dress">
+                <h3>dress</h3>
+                <p>$27</p><button onclick="addToCart()">Add to Cart</button></div>
+            <div class="product"><img src="https://www.tactics.com/a/e609/1b/lakai-discovery-t-shirt-forest-green.jpg" alt="Women T-shirt">
+                <h3>T-Shirt</h3>
+                <p>$22</p><button onclick="addToCart()">Add to Cart</button></div>
+        </div>
+        </div>
+    </section>
+
+    <section id="children" class="category">
+        <h2>kid's wear</h2>
+        <div class="product-grid">
+            <div class="product"><img src="https://i.pinimg.com/originals/0c/8a/d1/0c8ad109c521efb866baf09587b47a95.jpg" alt="Kids Shirt">
+                <h3>Shirt</h3>
+                <p>$20</p><button onclick="addToCart()">Add to Cart</button></div>
+            <div class="product"><img src="https://tse1.mm.bing.net/th?id=OIP.yAL1zEKYmV29Hahv5nY4zAHaHa&pid=Api&P=0&h=180" alt="Kids Trousers">
+                <h3>Trousers</h3>
+                <p>$25</p><button onclick="addToCart()">Add to Cart</button></div>
+            <div class="product"><img src="https://hulaglobal.com/wp-content/uploads/2020/12/3-31.jpg" alt="Kids Shorts">
+                <h3>Shorts</h3>
+                <p>$18</p><button onclick="addToCart()">Add to Cart</button></div>
+            <div class="product"><img src="https://printbest.com/wp-content/uploads/2021/02/Kids-T-Shirt.png" alt="Kids T-shirt">
+                <h3>T-Shirt</h3>
+                <p>$15</p><button onclick="addToCart()">Add to Cart</button></div>
+            <div class="product"><img src="https://tse2.mm.bing.net/th?id=OIP.F89URwC9KGYw6bH6JpYxrgHaHa&pid=Api&P=0&h=180" alt="Kids Shirt">
+                <h3>Shirt</h3>
+                <p>$20</p><button onclick="addToCart()">Add to Cart</button></div>
+            <div class="product"><img src="https://img.giglio.com/images/prodZoom/A89527.014_1.jpg" alt="Kids Trousers">
+                <h3>Trousers</h3>
+                <p>$25</p><button onclick="addToCart()">Add to Cart</button></div>
+            <div class="product"><img src="https://www.bigw.com.au/medias/sys_master/images/images/hb7/hbb/12779291574302.jpg" alt="Kids Shorts">
+                <h3>Shorts</h3>
+                <p>$18</p><button onclick="addToCart()">Add to Cart</button></div>
+            <div class="product"><img src="https://tse2.mm.bing.net/th?id=OIP.LgLtdDviI0Zy3BGFgnFxmwHaHa&pid=Api&P=0&h=180" alt="Kids T-shirt">
+                <h3>T-Shirt</h3>
+                <p>$15</p><button onclick="addToCart()">Add to Cart</button></div>
+        </div>
+    </section>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <h2>Login</h2>
+            <input type="text" placeholder="Username" />
+            <input type="password" placeholder="Password" />
+            <button onclick="closeModal()">Login</button>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <h2>Signup</h2>
+            <input type="text" placeholder="Username" />
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button onclick="closeModal()">Signup</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
